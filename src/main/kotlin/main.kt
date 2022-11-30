@@ -1,9 +1,9 @@
 package ru.netology
 
 fun main() {
-    var likes = 10101L
+    var likes = 2_120_546_210
 
-    val people = if (likes === 1L || likes in 21L.. 1_000_000_000 step 10) "человеку" else "человекам"
+    val people = if (likes === 1 || likes in 21.. Int.MAX_VALUE step 10) "человеку" else "человекам"
     println("Понравилось $likes $people")
 }
 
